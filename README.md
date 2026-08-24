@@ -104,3 +104,14 @@ Task5
     * fc4f9b0 feat: add hamburger recipe
     * fd9c900 feat: add sushi recipe
 
+% cat recipes.txt
+
+    MILD
+    EXTRA SPICY
+    2. Sushi: rice + sashimi
+    3. Hamburger: beef + bread
+    aaa
+    iii
+    uuu
+    eee
+
