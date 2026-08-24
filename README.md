@@ -6,8 +6,8 @@ PartA
 A1.
 % find .git/objects -type f | wc -l
 
-    2
-    デフォルトのテンプレートや初期化設定が含まれるオブジェクトが作成されるため。
+    ファイルの数　2
+    0でないのは、デフォルトのテンプレートや初期化設定が含まれるオブジェクトが作成されるため。
 
 A2.
 % cat .git/HEAD && cat .git/refs/heads/kitchen/YutoUchima     
