@@ -61,3 +61,18 @@ A4.
     Switched to branch 'kitchen/YutoUchima'
     Deleted branch rescue (was 56be284).
 
+
+
+PartB
+
+Task4
+
+% git log --oneline -n 4                                       
+
+    統合前
+    6a740db (HEAD -> kitchen/YutoUchima) eee
+    4ba4fa1 uuu
+    4c06cf9 iii
+    f7d85cf aaa
+
+
