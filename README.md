@@ -82,3 +82,25 @@ Task4
     7e7463f feat: add curry recipe
 
 
+Task5
+
+% cat recipes.txt
+
+    <<<<<<< HEAD
+    MILD
+    =======
+    EXTRA SPICY
+    >>>>>>> spicy-version
+
+
+% git log --oneline --graph -6
+
+    *   24f1d92 (HEAD -> kitchen/YutoUchima) Merge branch 'spicy-version' into kitchen/YutoUchima
+    |\  
+    | * cc601f6 (spicy-version) EXTRA SPICY
+    * | 0ebd01c MILD
+    |/  
+    * 9df0c8b feat: improve curry recipe
+    * fc4f9b0 feat: add hamburger recipe
+    * fd9c900 feat: add sushi recipe
+
