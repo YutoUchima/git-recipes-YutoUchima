@@ -11,6 +11,7 @@ A1.
 
 A2.
 % cat .git/HEAD && cat .git/refs/heads/kitchen/YutoUchima     
+
     .git/HEAD の中身
     ref: refs/heads/kitchen/YutoUchima
     ブランチのファイルの中身
