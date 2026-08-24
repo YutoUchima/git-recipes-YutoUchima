@@ -119,12 +119,17 @@ Task5
 Task6
 
 dessert ブランチのコミットハッシュ
+
 % git log -1 --oneline dessert
 
     a4979f9 (dessert) cake recipe
 
 kitchen ブランチのコミットハッシュ
+
 % git log -1 --oneline kitchen/YutoUchima
 
     5424a68 (HEAD -> kitchen/YutoUchima) cake recipe
 
+ハッシュ値が違う理由
+
+    cherry-pickは変更内容のみを新しくコミットするため、直前のコミットや、コミットした時間が異なるので、ハッシュ値が異なる。
