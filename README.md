@@ -115,3 +115,16 @@ Task5
     uuu
     eee
 
+
+Task6
+
+dessert ブランチのコミットハッシュ
+% git log -1 --oneline dessert
+
+    a4979f9 (dessert) cake recipe
+
+kitchen ブランチのコミットハッシュ
+% git log -1 --oneline kitchen/YutoUchima
+
+    5424a68 (HEAD -> kitchen/YutoUchima) cake recipe
+
