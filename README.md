@@ -1,16 +1,16 @@
 # git-recipes-YutoUchima
 enpit
 
-PartA
+# PartA
 
-A1.
+## A1.
 
 % find .git/objects -type f | wc -l
 
     ファイルの数　2
     0でないのは、デフォルトのテンプレートや初期化設定が含まれるオブジェクトが作成されるため。
 
-A2.
+## A2.
 
 % cat .git/HEAD && cat .git/refs/heads/kitchen/YutoUchima     
 
@@ -20,14 +20,14 @@ A2.
     ブランチのファイルの中身
     56be284d632cc7b0bb121defb1cd48ce9cf23de8
 
-A3.
+## A3.
 
 % git cat-file -p HEAD^{tree}
 
     ファイルモード、オブジェクトのタイプ、ハッシュ値、ファイル名が並んでいる。
     100644 blob 6042ac74512ee9a17b36ac44544350faee1dee89	README.md
 
-A4.
+## A4.
 
 % git log --oneline | tail -1
 
@@ -63,9 +63,9 @@ A4.
 
 
 
-PartB
+# PartB
 
-Task4
+## Task4
 
 % git log --oneline -n 4                                       
 
@@ -82,9 +82,9 @@ Task4
     7e7463f feat: add curry recipe
 
 
-PartC
+# PartC
 
-Task5
+## Task5
 
 % cat recipes.txt
 
@@ -118,9 +118,9 @@ Task5
     eee
 
 
-PartD
+# PartD
 
-Task6
+## Task6
 
 dessert ブランチのコミットハッシュ
 
