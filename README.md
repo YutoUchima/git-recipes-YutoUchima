@@ -82,6 +82,8 @@ Task4
     7e7463f feat: add curry recipe
 
 
+PartC
+
 Task5
 
 % cat recipes.txt
@@ -115,6 +117,8 @@ Task5
     uuu
     eee
 
+
+PartD
 
 Task6
 
