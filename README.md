@@ -58,6 +58,6 @@ A4.
 % git checkout -b rescue && git checkout kitchen/YutoUchima && git branch -d rescue
 
     Switched to a new branch 'rescue'
-Switched to branch 'kitchen/YutoUchima'
-Deleted branch rescue (was 56be284).
+    Switched to branch 'kitchen/YutoUchima'
+    Deleted branch rescue (was 56be284).
 
