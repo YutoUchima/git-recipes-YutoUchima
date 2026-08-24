@@ -14,5 +14,6 @@ A2.
 
     .git/HEAD の中身
     ref: refs/heads/kitchen/YutoUchima
+    
     ブランチのファイルの中身
     56be284d632cc7b0bb121defb1cd48ce9cf23de8
