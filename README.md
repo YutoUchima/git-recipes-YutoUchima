@@ -75,4 +75,10 @@ Task4
     4c06cf9 iii
     f7d85cf aaa
 
+    統合後
+    9df0c8b (HEAD -> kitchen/YutoUchima) feat: improve curry recipe
+    fc4f9b0 feat: add hamburger recipe
+    fd9c900 feat: add sushi recipe
+    7e7463f feat: add curry recipe
+
 
